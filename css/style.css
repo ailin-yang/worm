@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.soil{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.title{
+    font-size: 20px;
+    color: white;
+    position: absolute; 
+    top: 0;
+    padding: 20px;
+    margin: 0;
+    font-family: Helvetica, arial, sans-serif;
+
+}
+
+.title:hover{
+    font-size: 200px;
+    color: yellowgreen;
+    transition: color 500ms, font-size 5s;
+
+}
+
+.green-box{
+    position:absolute;
+    top: 400px;
+    left: 300px;
+    background: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transition: all 500ms;
+
+}
+.rock{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    cursor: pointer;
+}
+
+.dialog{ 
+    background: lightgrey;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+
+    display: none;
+}
+
+p{
+    margin: 0;
+    padding: 50px;
+}
+
+.seed{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+}
+
+.worm{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    transform: rotate(90deg);
+    transition: all 5s;
+}
